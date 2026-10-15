@@ -1,0 +1,58 @@
+[
+  {
+    "product": "A",
+    "size": 100,
+    "item_count": 100,
+    "event_count": 185,
+    "status_counts": {
+      "todo": 40,
+      "doing": 35,
+      "done": 25
+    },
+    "logical_fingerprint": "574394d164dc209840a8e02d748ad39289f405902e8d0fecb93c535b8473fb71",
+    "db_size_bytes": 102400,
+    "utc": "2026-10-15T02:32:09.049631+00:00"
+  },
+  {
+    "product": "B",
+    "size": 100,
+    "item_count": 100,
+    "event_count": 185,
+    "status_counts": {
+      "todo": 40,
+      "doing": 35,
+      "done": 25
+    },
+    "logical_fingerprint": "574394d164dc209840a8e02d748ad39289f405902e8d0fecb93c535b8473fb71",
+    "db_size_bytes": 86016,
+    "utc": "2026-10-15T02:32:09.710425+00:00"
+  },
+  {
+    "product": "A",
+    "size": 1000,
+    "item_count": 1000,
+    "event_count": 1850,
+    "status_counts": {
+      "todo": 400,
+      "doing": 350,
+      "done": 250
+    },
+    "logical_fingerprint": "c1828c67dd45d895f7597924e005b19ff6f84c553cd1f91ddccc259f0efe015b",
+    "db_size_bytes": 856064,
+    "utc": "2026-10-15T02:32:12.685640+00:00"
+  },
+  {
+    "product": "B",
+    "size": 1000,
+    "item_count": 1000,
+    "event_count": 1850,
+    "status_counts": {
+      "todo": 400,
+      "doing": 350,
+      "done": 250
+    },
+    "logical_fingerprint": "c1828c67dd45d895f7597924e005b19ff6f84c553cd1f91ddccc259f0efe015b",
+    "db_size_bytes": 724992,
+    "utc": "2026-10-15T02:32:15.026638+00:00"
+  }
+]

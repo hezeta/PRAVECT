@@ -1,0 +1,16 @@
+[
+  {
+    "product": "A",
+    "product_py_statement_coverage_percent": 98.57,
+    "covered_statement_count": 276,
+    "total_statement_count": 280,
+    "note": "Linux Python 3.13, line/statement coverage; branch, JS and real browser not included."
+  },
+  {
+    "product": "B",
+    "product_py_statement_coverage_percent": 93.37,
+    "covered_statement_count": 310,
+    "total_statement_count": 332,
+    "note": "Linux Python 3.13, line/statement coverage; branch, JS and real browser not included."
+  }
+]

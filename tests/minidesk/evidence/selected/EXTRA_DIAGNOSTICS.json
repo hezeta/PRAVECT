@@ -1,0 +1,84 @@
+{
+  "A": {
+    "baseline_health_http_status": 200,
+    "health_after_missing_tables": 503,
+    "expected_healthy_only_when_db_ready": true,
+    "python_modules": {
+      "items.py": {
+        "lines": 183,
+        "bytes": 5667,
+        "sha256": "2df0dfc6998fd10bef0102fe082ba8e62e8ca8aa50bc2e60c107a4a0f2bdc3fd",
+        "functions": 10,
+        "classes": 1
+      },
+      "validation.py": {
+        "lines": 105,
+        "bytes": 4153,
+        "sha256": "5d3756a016e310fd3458f50f140d0bb574ad88826853b633f32139f2f290f535",
+        "functions": 6,
+        "classes": 2
+      },
+      "app.py": {
+        "lines": 152,
+        "bytes": 5039,
+        "sha256": "c76748aa95076f58493c5c09444295af2d76dce873729789d248ee12b3cfd970",
+        "functions": 18,
+        "classes": 0
+      },
+      "database.py": {
+        "lines": 48,
+        "bytes": 1317,
+        "sha256": "6a560e257f1b5187e25fcb1b16be96771b4131c326db30a971537a4b884afb69",
+        "functions": 5,
+        "classes": 0
+      }
+    },
+    "python_lines_sum": 488,
+    "tests_files": 5,
+    "python_dependencies": [
+      "Flask==3.1.3",
+      ""
+    ]
+  },
+  "B": {
+    "baseline_health_http_status": 200,
+    "health_after_missing_tables": 200,
+    "expected_healthy_only_when_db_ready": false,
+    "python_modules": {
+      "validation.py": {
+        "lines": 73,
+        "bytes": 3155,
+        "sha256": "cd9f0d328db08d8fd8b1991a28b13cf7f7a5101b6096b49c564e33c54e5887c4",
+        "functions": 3,
+        "classes": 1
+      },
+      "app.py": {
+        "lines": 197,
+        "bytes": 9170,
+        "sha256": "74f13c560f93c687641c4e421588fa3dd80f7d4c96c92f4577da3a53adad1ab3",
+        "functions": 15,
+        "classes": 3
+      },
+      "database.py": {
+        "lines": 139,
+        "bytes": 4555,
+        "sha256": "1aec46c4bf118326839edb42c78a53c0b1528d722fe647608dca282d9bff1540",
+        "functions": 13,
+        "classes": 0
+      },
+      "service.py": {
+        "lines": 57,
+        "bytes": 2482,
+        "sha256": "a19de2635aa1eb6caf058bba5c30f7d8384a3e5e43f4e2af4c430b40418e43d8",
+        "functions": 3,
+        "classes": 2
+      }
+    },
+    "python_lines_sum": 466,
+    "tests_files": 3,
+    "python_dependencies": [
+      "# MiniDesk uses only the Python 3.11+ standard library.",
+      "# No additional runtime packages are required."
+    ]
+  }
+}

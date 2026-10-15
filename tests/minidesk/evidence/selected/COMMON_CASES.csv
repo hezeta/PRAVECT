@@ -1,0 +1,97 @@
+id,product,status,seconds,utc,evidence
+F01,A,PASS,0.00193,2026-10-15T02:29:27.736449+00:00,
+F02,A,PASS,0.00562,2026-10-15T02:29:27.738410+00:00,
+F03,A,PASS,0.00342,2026-10-15T02:29:27.744062+00:00,
+F04,A,PASS,0.01117,2026-10-15T02:29:27.747504+00:00,
+F05,A,PASS,0.0096,2026-10-15T02:29:27.758693+00:00,
+F06,A,PASS,0.00511,2026-10-15T02:29:27.768315+00:00,
+F07,A,PASS,0.00714,2026-10-15T02:29:27.773448+00:00,
+F08,A,PASS,0.00477,2026-10-15T02:29:27.780615+00:00,
+F09,A,PASS,0.0068,2026-10-15T02:29:27.785410+00:00,
+F10,A,PASS,0.00583,2026-10-15T02:29:27.792233+00:00,
+F11,A,PASS,0.00447,2026-10-15T02:29:27.798083+00:00,
+F12,A,PASS,0.0011,2026-10-15T02:29:27.802581+00:00,
+F14,A,PASS,0.0049,2026-10-15T02:29:27.803756+00:00,
+F15,A,PASS,0.01034,2026-10-15T02:29:27.808681+00:00,
+D05,A,PASS,0.00374,2026-10-15T02:29:27.819041+00:00,
+S02,A,PASS,0.00348,2026-10-15T02:29:27.822803+00:00,
+S05,A,PASS,0.0056,2026-10-15T02:29:27.826299+00:00,
+S08,A,PASS,0.0008,2026-10-15T02:29:27.831919+00:00,Yalnız puansız HTTP başlık gözlemi
+S09,A,PASS,0.00286,2026-10-15T02:29:27.832731+00:00,
+O03,A,PASS,0.00207,2026-10-15T02:29:27.835612+00:00,Dış ağ isteği kullanılmadan loopback API
+F13,A,PASS,0.61908,2026-10-15T02:29:27.845115+00:00,
+D01,A,PASS,0.00053,2026-10-15T02:29:28.464236+00:00,
+D06,A,PASS,2e-05,2026-10-15T02:29:28.464781+00:00,
+D07,A,NOT_ASSESSED,0.00015,2026-10-15T02:29:28.464813+00:00,Yalnız yabancı anahtar varlığı denetlendi; şema kurallarının tamamı sınanmadı. İlk koşu: Yalnız şema yabancı anahtar varlığı kontrolü; tüm iş kuralları incelenmedi
+D08,A,PASS,0.00033,2026-10-15T02:29:28.464981+00:00,
+D02,A,PASS,0.00379,2026-10-15T02:29:29.076199+00:00,
+D03,A,PASS,0.00479,2026-10-15T02:29:29.785630+00:00,
+D04,A,PASS,0.00487,2026-10-15T02:29:30.411672+00:00,
+Q01,A,PASS,0.00077,2026-10-15T02:29:30.423962+00:00,Kaynak dosyalarında açık yasak teknoloji araması
+Q02,A,PASS,6e-05,2026-10-15T02:29:30.424761+00:00,
+Q03,A,NOT_ASSESSED,8e-05,2026-10-15T02:29:30.424828+00:00,Yalnız önemli modüllerin varlığı kontrol edildi; uçtan uca bütünlük otomatik olarak kanıtlanmadı. İlk koşu: Dosya mevcudiyeti; modül kalitesi için manuel inceleme gerekli
+O04,A,PASS,5e-05,2026-10-15T02:29:30.424912+00:00,README komutların varlığı; Windows çalıştırma ayrıca sınanmalı
+O05,A,FAIL,5e-05,2026-10-15T02:29:30.424973+00:00,README önceki aşamalarda kalmış: M4 son kabul bilgisini göstermiyor
+U05,A,NOT_ASSESSED,3e-05,2026-10-15T02:29:30.425031+00:00,HTML etiket varlığı görüldü; alan ilişkisi ve klavye semantiği gerçek tarayıcıda doğrulanmadı. İlk koşu: Sadece HTML kaynak düzeyi kontrol; gerçek klavye kullanımı değerlendirilmedi
+S03,A,PASS,2e-05,2026-10-15T02:29:30.425066+00:00,Kaynak ve yerel başlatma; dış arayüz port taraması bu ortamda yapılmadı
+S04,A,NOT_ASSESSED,2e-05,2026-10-15T02:29:30.425093+00:00,Yalnız .env mevcudiyeti ve geçici test dizini gözlendi; tam hassas veri taraması yapılmadı. İlk koşu: 
+S07,A,NOT_APPLICABLE,0.0,2026-10-15T02:29:30.425121+00:00,ROADMAP N-01: kullanıcı kimlik doğrulaması kasıtlı olarak kapsam dışı; puanlanmaz. İlk koşu: ROADMAP N-01 kapsam açıklaması; puana alınmaz
+F16,A,BLOCKED,0,2026-10-15T02:29:30.425128+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+S01,A,BLOCKED,0,2026-10-15T02:29:30.425131+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+S06,A,BLOCKED,0,2026-10-15T02:29:30.425132+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U01,A,BLOCKED,0,2026-10-15T02:29:30.425134+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U02,A,BLOCKED,0,2026-10-15T02:29:30.425136+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U03,A,BLOCKED,0,2026-10-15T02:29:30.425138+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U04,A,BLOCKED,0,2026-10-15T02:29:30.425139+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U06,A,BLOCKED,0,2026-10-15T02:29:30.425141+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+Q04,A,BLOCKED,0,2026-10-15T02:29:30.425143+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+O01,A,BLOCKED,0,2026-10-15T02:29:30.425145+00:00,Protokolün birincil Windows/Python 3.11 ortamı bu Linux/Python 3.13 çalışmasında yok
+O02,A,BLOCKED,0,2026-10-15T02:29:30.425147+00:00,Protokolün birincil Windows/Python 3.11 ortamı bu Linux/Python 3.13 çalışmasında yok
+F01,B,PASS,0.00135,2026-10-15T02:29:30.954281+00:00,
+F02,B,PASS,0.00357,2026-10-15T02:29:30.955656+00:00,
+F03,B,PASS,0.00249,2026-10-15T02:29:30.959244+00:00,
+F04,B,PASS,0.0083,2026-10-15T02:29:30.961781+00:00,
+F05,B,PASS,0.00683,2026-10-15T02:29:30.970101+00:00,
+F06,B,PASS,0.00383,2026-10-15T02:29:30.976953+00:00,
+F07,B,PASS,0.00574,2026-10-15T02:29:30.980802+00:00,
+F08,B,PASS,0.00458,2026-10-15T02:29:30.986563+00:00,
+F09,B,PASS,0.00577,2026-10-15T02:29:30.991169+00:00,
+F10,B,PASS,0.00483,2026-10-15T02:29:30.996957+00:00,
+F11,B,PASS,0.00388,2026-10-15T02:29:31.001813+00:00,
+F12,B,PASS,0.00127,2026-10-15T02:29:31.005712+00:00,
+F14,B,PASS,0.00368,2026-10-15T02:29:31.007001+00:00,
+F15,B,PASS,0.00851,2026-10-15T02:29:31.010701+00:00,
+D05,B,PASS,0.00325,2026-10-15T02:29:31.019235+00:00,
+S02,B,PASS,0.00264,2026-10-15T02:29:31.022504+00:00,
+S05,B,PASS,0.00372,2026-10-15T02:29:31.025164+00:00,
+S08,B,PASS,0.00045,2026-10-15T02:29:31.028911+00:00,Yalnız puansız HTTP başlık gözlemi
+S09,B,PASS,0.00201,2026-10-15T02:29:31.029378+00:00,
+O03,B,PASS,0.00147,2026-10-15T02:29:31.031408+00:00,Dış ağ isteği kullanılmadan loopback API
+F13,B,PASS,0.49897,2026-10-15T02:29:31.040209+00:00,
+D01,B,PASS,0.00031,2026-10-15T02:29:31.539220+00:00,
+D06,B,PASS,0.0,2026-10-15T02:29:31.539545+00:00,
+D07,B,NOT_ASSESSED,9e-05,2026-10-15T02:29:31.539557+00:00,Yalnız yabancı anahtar varlığı denetlendi; şema kurallarının tamamı sınanmadı. İlk koşu: Yalnız şema yabancı anahtar varlığı kontrolü; tüm iş kuralları incelenmedi
+D08,B,PASS,0.00025,2026-10-15T02:29:31.539662+00:00,
+D02,B,PASS,0.00215,2026-10-15T02:29:32.111397+00:00,
+D03,B,PASS,0.0031,2026-10-15T02:29:32.658116+00:00,
+D04,B,PASS,0.00473,2026-10-15T02:29:33.242575+00:00,
+Q01,B,PASS,0.00065,2026-10-15T02:29:33.255064+00:00,Kaynak dosyalarında açık yasak teknoloji araması
+Q02,B,PASS,6e-05,2026-10-15T02:29:33.255743+00:00,
+Q03,B,NOT_ASSESSED,0.00012,2026-10-15T02:29:33.255816+00:00,Yalnız önemli modüllerin varlığı kontrol edildi; uçtan uca bütünlük otomatik olarak kanıtlanmadı. İlk koşu: Dosya mevcudiyeti; modül kalitesi için manuel inceleme gerekli
+O04,B,PASS,4e-05,2026-10-15T02:29:33.255950+00:00,README komutların varlığı; Windows çalıştırma ayrıca sınanmalı
+O05,B,PASS,3e-05,2026-10-15T02:29:33.255999+00:00,
+U05,B,NOT_ASSESSED,3e-05,2026-10-15T02:29:33.256034+00:00,HTML etiket varlığı görüldü; alan ilişkisi ve klavye semantiği gerçek tarayıcıda doğrulanmadı. İlk koşu: Sadece HTML kaynak düzeyi kontrol; gerçek klavye kullanımı değerlendirilmedi
+S03,B,PASS,9e-05,2026-10-15T02:29:33.256069+00:00,Kaynak ve yerel başlatma; dış arayüz port taraması bu ortamda yapılmadı
+S04,B,NOT_ASSESSED,3e-05,2026-10-15T02:29:33.256166+00:00,Yalnız .env mevcudiyeti ve geçici test dizini gözlendi; tam hassas veri taraması yapılmadı. İlk koşu: 
+S07,B,NOT_APPLICABLE,0.0,2026-10-15T02:29:33.256203+00:00,ROADMAP N-01: kullanıcı kimlik doğrulaması kasıtlı olarak kapsam dışı; puanlanmaz. İlk koşu: ROADMAP N-01 kapsam açıklaması; puana alınmaz
+F16,B,BLOCKED,0,2026-10-15T02:29:33.256211+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+S01,B,BLOCKED,0,2026-10-15T02:29:33.256214+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+S06,B,BLOCKED,0,2026-10-15T02:29:33.256215+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U01,B,BLOCKED,0,2026-10-15T02:29:33.256217+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U02,B,BLOCKED,0,2026-10-15T02:29:33.256218+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U03,B,BLOCKED,0,2026-10-15T02:29:33.256220+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U04,B,BLOCKED,0,2026-10-15T02:29:33.256222+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+U06,B,BLOCKED,0,2026-10-15T02:29:33.256224+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+Q04,B,BLOCKED,0,2026-10-15T02:29:33.256226+00:00,Chromium data: URL gezinmesi ERR_BLOCKED_BY_ADMINISTRATOR; bağımsız gerçek tarayıcı senaryosu çalıştırılamadı
+O01,B,BLOCKED,0,2026-10-15T02:29:33.256228+00:00,Protokolün birincil Windows/Python 3.11 ortamı bu Linux/Python 3.13 çalışmasında yok
+O02,B,BLOCKED,0,2026-10-15T02:29:33.256230+00:00,Protokolün birincil Windows/Python 3.11 ortamı bu Linux/Python 3.13 çalışmasında yok
